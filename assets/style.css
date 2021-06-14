@@ -1,9 +1,15 @@
-body {
-    background-color: rgb(235, 235, 235);
+/* Set the page */
+:root{
+    --red-accent: rgb(138, 29, 2);
+    --bkgd-color: rgb(235, 235, 235);
 }
+body {
+    background-color: var(--bkgd-color);
+}
+
 /* Styling for the header */
 header {
-    background-color: teal;
+    background-color: var(--red-accent);
     color: white;
     padding: 10px;
     align-items: flex-end;
@@ -23,3 +29,33 @@ header ul li{
     font-size: 20px;
 }
 
+/* Hero Image */
+.hero-image{
+    height: 500px;
+    width: 100%;
+    background-image: url("hero.JPG");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Aside Styling */
+article h2{
+    background-color: var(--bkgd-color);
+    color: var(--red-accent);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-transform: lowercase;
+    transform: scale(0.5, 1);
+    float: left;
+    padding: 50px;
+}
+
+.card{
+    background-color: var(--red-accent);
+    color: white;
+    font-size: 25px; 
+    float: inline-end;
+    padding: 10px;
+    margin: 20px;
+}
