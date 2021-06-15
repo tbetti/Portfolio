@@ -29,6 +29,10 @@ header ul li{
     font-size: 20px;
 }
 
+header ul li a{
+    color: white;
+}
+
 /* Hero Image */
 .hero-image{
     height: 500px;
@@ -44,7 +48,19 @@ header ul li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 20px;
+    margin: 10px;
+}
+
+.master-section h2{
+    color: var(--red-accent);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 75px;
+    text-transform: lowercase;
+    transform: scale(0.5, 1);
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    width: 100px;
 }
 
 /* Basic styling for about-me section */
@@ -59,33 +75,18 @@ header ul li{
     margin: 20px;
 }
 
-/* Styling for the About-Me Header */
-.master-section h2{
-    background-color: var(--bkgd-color);
-    color: var(--red-accent);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 50px;
-    text-transform: lowercase;
-    transform: scale(0.5, 1);
-    float: left;
-    padding: 25px;
-    width: 100px;
-}
-
-/* Styling for About-Me Image */
 .profile-picture{
     width: 25%;
     border-radius: 165px;
 }
 
-/* Styling for About-Me Main text */
 .about-me-text{
     padding: 15px;
 }
 
 /* Styling for the Work Card */
 .work-card{
-    border: 10px solid var(--red-accent);
+    border: 7px solid var(--red-accent);
     float: inline-end;
     margin: 20px;
     position: relative;
@@ -104,4 +105,30 @@ header ul li{
     flex-direction: row;
     float: inline-end;
     width: 10px;
+}
+
+/* Styling for the Footer */
+footer{
+    text-align: center;
+    position: relative;
+}
+footer h4{
+    color: var(--red-accent);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    text-transform: lowercase;
+}
+.footer-item1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+}
+.footer-item1 b{
+    color: var(--red-accent);
+}
+.footer-item1 p{
+    margin-left: 50px;
+    margin-right: 25px;
+    font-size: 18px;
 }
