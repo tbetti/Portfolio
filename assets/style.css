@@ -33,14 +33,33 @@ header ul li{
 .hero-image{
     height: 500px;
     width: 100%;
-    background-image: url("hero.JPG");
+    background-image: url("./images/hero.JPG");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-/* Aside Styling */
-article h2{
+/* Basic Styling for the About-Me Section */
+.about-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.about-me-info{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--red-accent);
+    color: white;
+    font-size: 25px; 
+    float: inline-end;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Styling for the About-Me Header */
+.about-me h2{
     background-color: var(--bkgd-color);
     color: var(--red-accent);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -48,14 +67,16 @@ article h2{
     text-transform: lowercase;
     transform: scale(0.5, 1);
     float: left;
-    padding: 50px;
+    padding: 25px;
 }
 
-.card{
-    background-color: var(--red-accent);
-    color: white;
-    font-size: 25px; 
-    float: inline-end;
-    padding: 10px;
-    margin: 20px;
+/* Styling for About-Me Image */
+.profile-picture{
+    width: 25%;
+    border-radius: 165px;
+}
+
+/* Styling for About-Me Main text */
+.about-me-text{
+    padding: 15px;
 }
