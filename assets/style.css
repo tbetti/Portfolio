@@ -39,7 +39,7 @@ header ul li{
     position: relative;
 }
 
-/* Basic Styling for the About-Me Section */
+/* Basic Styling for all sections */
 .master-section{
     display: flex;
     flex-direction: row;
@@ -47,6 +47,7 @@ header ul li{
     margin: 20px;
 }
 
+/* Basic styling for about-me section */
 .about-me-info{
     display: flex;
     flex-direction: row;
@@ -97,4 +98,10 @@ header ul li{
     padding-right: 20px;
     position: absolute;
     bottom: 36px;
+}
+.work-card-section{
+    display: flex;
+    flex-direction: row;
+    float: inline-end;
+    width: 10px;
 }
