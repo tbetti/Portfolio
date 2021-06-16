@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <meta charset="UTF-8"/>
         <link rel="stylesheet" href="./assets/style.css">
         <title>Tiana Bettinson | Portfolio</title>
     </head>
@@ -10,61 +9,63 @@
         <header>
             <h1>Tiana Bettinson</h1>
             <ul>
-                <li><a href="#About-Me">About Me</a></li>
-                <li><a href="#Work">Work</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
         <div class="hero-image"></div>
         <!-- About Me Section -->
         <section class="master-container"> 
-            <aside id="About-Me"><h2>About Me</h2></aside>
-            <article class=about-me-container>
+            <aside id="about-me"><h2>About Me</h2></aside>
+            <div class="about-me-container">
                 <img class="profile-picture" src="assets/images/Me2.jpg" alt="Tiana Bettinson Profile">
                 <div class="about-me-text">
                     <p>I graduated from Brigham Young University with a Bachelor's Degree in sociology and a minor in statistics.  After, I received a Master's Degree in Education.  I am a former upper-elementary-school math teacher currently based in New York City ready to become a web developer.</p>  
                     <p>Check out my work below!</p>
                 </div>
-            </article>
+            </div>
         </section>
         <!-- Work Section -->
-        <section class="master-container">
-            <aside id="Work"><h2>Work</h2></aside>
-            <article class="work-card-container">
-                <!-- First Project - Largest on screen -->
+        <section class="master-container"> 
+            <aside id="work"><h2>Work</h2></aside>
+            <div class="work-container">
                 <div class="work-card">
                     <a href="https://tbetti.github.io/my_first_project/" target="_blank">
-                        <img src="assets/images/First-Project.png" alt="My First Project">
+                        <img src="assets/images/First-Project.png" style="width: 98%" alt="My First Project">
                     </a>
                     <div class="card-title">
                         <h3>My First Project</h3>
                         <p>HTML/CSS</p>
                     </div>
                 </div>
-                <!-- Next Projects - Smaller on screen-->
-                <div class="lower-work-cards">
-                    <article class=work-card>
-                        <a href="https://tbetti.github.io/prework-about-me/" target="_blank">
-                            <img src="assets/images/about-me.png" alt="About Me Website">
-                        </a>
-                        <div class="card-title">
-                            <h3>About Me</h3>
-                            <p>HTML/CSS</p>
+                <div class="work-card" style="display:flex">
+                    <div class="row">
+                        <div class="work-card">
+                            <a href="https://tbetti.github.io/prework-about-me/" target="_blank">
+                                <img src="assets/images/about-me.png" alt="About Me Website">
+                            </a>
+                            <div class="card-title">
+                                <h3>About Me</h3>
+                                <p>HTML/CSS</p>
+                            </div>
                         </div>
-                    </article>
-                    <div class=work-card>
-                        <a href="https://tbetti.github.io/the-Killers-Fan-Page/fanpage.html" target="_blank">
-                            <img src="assets/images/killers-fan-page.png" alt="The Killers Fan Page">
-                        </a>
-                        <div class="card-title">
-                            <h3>The Killers Fan Page</h3>
-                            <p>HTML/CSS</p>
+                    </div>
+                    <div class="row">
+                        <div class="work-card">
+                            <a href="https://tbetti.github.io/the-Killers-Fan-Page/fanpage.html" target="_blank">
+                                <img src="assets/images/killers-fan-page.png" alt="The Killers Fan Page">
+                            </a>
+                            <div class="card-title">
+                                <h3>The Killers Fan Page</h3>
+                                <p>HTML/CSS</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </article>
-            
+            </div>
         </section>
+         <!-- Contact Information --> 
         <footer id="Contact">
             <h4>Contact Me</h4>
             <div class="footer-item">
