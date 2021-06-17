@@ -46,7 +46,7 @@ header ul li a{
 .master-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 1%; /* Changed from 10px - Did this make a difference? */
+    margin: 1%;
 }
 .master-container aside{
     width: 30%;
@@ -128,5 +128,33 @@ footer h4{
 .footer-item p{
     margin-left: 50px;
     margin-right: 25px;
-    font-size: 20px; /* Any larger font size will get rid of the email/git hub text */
+    font-size: 20px; 
+}
+
+/* Adjust for screen size */
+@media screen and (max-width:768px){
+    .master-container{
+        flex-direction: column;
+    }
+    aside h2{
+        white-space: nowrap;
+        padding: 1px;
+        margin: 0px;
+    }
+    .about-me-container{
+        flex-direction: column;
+    }
+    .card-title{
+        flex: 1 1 50px; /*need extra help with this*/
+    }
+    .footer-item{
+        flex-direction: column;
+    }
+    .footer-item p{
+        font-size: 14px;
+    }
+    header ul{
+        background-color: var(--red-accent);
+        margin: 0px;
+    }
 }
