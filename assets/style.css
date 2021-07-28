@@ -89,6 +89,9 @@ a:hover{
 }
 
 /* Styling for the Work Card */
+.row{
+    display: flex;
+}
 .work-card{
     position: relative;
     width: 100%;
@@ -96,7 +99,7 @@ a:hover{
 .work-card img{
     width: 95%;
 }
-.work-card .row{
+.row-card{
     width: 50%;
 }
 .card-title{
