@@ -9,4 +9,7 @@ function fillWorkContainer(){
     workContainer.append(row);
     createSmallCard("weatherGenerator", row);
     createSmallCard("guessWord", row);
+
+    // Create large Card
+    createLargeCard("libraryOfCongress");
 }

@@ -91,13 +91,14 @@ a:hover{
 /* Styling for the Work Card */
 .row{
     display: flex;
+    width: 100%;
 }
 .work-card{
     position: relative;
     width: 100%;
 }
 .work-card img{
-    width: 95%;
+    width: 100%;
 }
 .row-card{
     width: 50%;
