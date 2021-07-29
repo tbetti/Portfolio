@@ -26,8 +26,15 @@ function createLargeCard(siteName){
     workContainer.append(row)
 }
 
-function createSmallCard(siteName, row){
-    var workCard = createCard(siteName);
-    workCard.attr("class", "work-card row-card");
-    row.append(workCard);
+function createSmallCards(siteName1, siteName2){
+    var row = $("<div>").attr("class", "row");
+    workContainer.append(row);
+
+    var workCard1 = createCard(siteName1);
+    workCard1.attr("class", "work-card row-card");
+    row.append(workCard1);
+
+    var workCard2 = createCard(siteName2);
+    workCard2.attr("class", "work-card row-card");
+    row.append(workCard2);
 }

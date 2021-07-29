@@ -1,15 +1,12 @@
 // call cards
 fillWorkContainer();
 function fillWorkContainer(){
-    // Create large Card
+    // Create large card
     createLargeCard("gameTime");
 
-    // Create small Card
-    var row = $("<div>").attr("class", "row");
-    workContainer.append(row);
-    createSmallCard("weatherGenerator", row);
-    createSmallCard("guessWord", row);
+    // Create small cards
+    createSmallCards("weatherGenerator", "guessWord");
 
-    // Create large Card
+    // Create large card
     createLargeCard("libraryOfCongress");
 }
