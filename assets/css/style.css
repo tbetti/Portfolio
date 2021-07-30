@@ -148,6 +148,7 @@ a:hover{
 footer{
     text-align: center;
     background-color: var(--bkgd-color2);
+    margin-top: 2%;
 }
 footer h4{
     color: var(--blue-main);

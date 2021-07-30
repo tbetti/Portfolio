@@ -36,26 +36,29 @@
         display: none;
     }
     /* About Me */
-    .about-text{
+    .about-section h2{
+        font-size: 36px;
+    }
+    .section-text{
         width: 75%;
         margin-left: auto;
         margin-right: auto;
         font-size: 16px;
     }
-    .about-text span{
+    .section-text span{
         display: none;
     }
-    .about-text h2{
+    .section-text h2{
         font-size: 36px;
     }
     /* Main Container */
     .master-container{
         flex-direction: column;
     }
-    aside h2{
-        white-space: nowrap;
-        padding: 1px;
-        margin: 0px;
+    .master-container h2{
+        font-size: 50px;
+        padding-left: 0%;
+        padding-right: 0%;
     }
     .row{
         flex-direction: column;
@@ -67,10 +70,15 @@
     .card-title{
         flex: 1 1 50px; /*need extra help with this*/
     }
-    .footer-item{
-        flex-direction: column;
+    /* Contact Section */
+    .contact-container a{
+        margin: 5%;
     }
-    .footer-item p{
-        font-size: 14px;
+    /* Footer */
+    footer{
+        margin-top: 8%;
+    }
+    footer h4{
+        font-size: 16px;
     }
 }
