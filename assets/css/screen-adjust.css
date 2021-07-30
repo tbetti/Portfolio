@@ -1,8 +1,5 @@
 /* Adjust for screen size */
-@media screen and (max-width:768px){
-    .master-container{
-        flex-direction: column;
-    }
+@media screen and (max-width:750px){
     /* Navbar */
     .navbar h1 span{
         display: none;
@@ -39,10 +36,22 @@
         display: none;
     }
     /* About Me */
+    .about-text{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+    }
     .about-text span{
         display: none;
     }
+    .about-text h2{
+        font-size: 36px;
+    }
     /* Main Container */
+    .master-container{
+        flex-direction: column;
+    }
     aside h2{
         white-space: nowrap;
         padding: 1px;
