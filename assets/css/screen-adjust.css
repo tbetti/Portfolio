@@ -1,0 +1,60 @@
+/* Adjust for screen size */
+@media screen and (max-width:768px){
+    .master-container{
+        flex-direction: column;
+    }
+    /* Navbar */
+    .navbar h1 span{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+        float: right;
+    }
+    .dropdown a{
+        color: white;
+        padding: 5%;
+        text-decoration: none;
+        display: block;
+    }
+    .drop-content{
+        display: none;
+        position: absolute;
+        background-color: var(--blue-main);
+        min-width: 160px;
+        z-index: 1;
+    }
+    .dropbtn{
+        font-family: inherit;
+        margin: 0;
+    }
+    .dropdown a:hover, .dropdown:hover .dropbtn {
+        color: var(--magenta-accent);
+        cursor: pointer;
+    }
+    .dropdown:hover .drop-content{
+        display: block;
+    }
+    .navbar ul{
+        display: none;
+    }
+    /* About Me */
+    .about-text span{
+        display: none;
+    }
+    /* Main Container */
+    aside h2{
+        white-space: nowrap;
+        padding: 1px;
+        margin: 0px;
+    }
+    .card-title{
+        flex: 1 1 50px; /*need extra help with this*/
+    }
+    .footer-item{
+        flex-direction: column;
+    }
+    .footer-item p{
+        font-size: 14px;
+    }
+}

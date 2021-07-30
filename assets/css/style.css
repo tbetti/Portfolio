@@ -12,28 +12,30 @@ body {
 }
 
 /* Styling for the header */
-header {
+.navbar {
     background-color: var(--blue-main);
-    color: var(--lt-blue);
     padding: 10px;
-    align-items: flex-end;
 }
-header h1 {
+.navbar h1 {
+    color: var(--lt-blue);
     display: inline;
     padding-left: 20px;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
-header ul {
+.dropdown{
+    display: none;
+}
+.navbar ul {
     float: right;
 }
-header ul li{
+.navbar ul li{
     display: inline;
     padding: 15px;
     font-size: 20px;
 }
 
-header ul li a{
+.navbar ul li a{
     color: white;
     text-decoration: none;
 }
@@ -43,34 +45,22 @@ a:hover{
     cursor: pointer;
 }
 
-/* Hero Image */
-.hero-section{
+/* About Me Section */
+.about-section{
     display: flex;
     background-color: var(--bkgd-color);
-    margin-top: 5%;
-}
-.hero-image{
-    height: auto;
-    width: 30%;
-    background-image: url("./images/Me1.jpg");
-    background-size: cover;
-    background-position: center;
-    margin-left: 8%;
+    text-align: center;
+    /* margin-top: 5%; */
 }
 
-.hero-text{
-    width: 70%;
-    font-size: 24px;
-    padding: 2%;
-    margin-right: 8%;
-    background-color: var(--bkgd-color2);
-}
-
-.hero-text h2{
+.about-text{
+    border: 2pt solid black;
+    margin-left: 15%;
+    margin-right: 15%;
     color: var(--blue-main);
-    font-size: 75px;
-    text-transform: lowercase;
+    width: 70%;
 }
+
 
 /* Basic styling for both about-me and work sections */
 .master-container{
@@ -145,32 +135,4 @@ footer h4{
 
 .footer-item a:hover{
     color: var(--magenta-accent);
-}
-
-/* Adjust for screen size */
-@media screen and (max-width:768px){
-    .master-container{
-        flex-direction: column;
-    }
-    aside h2{
-        white-space: nowrap;
-        padding: 1px;
-        margin: 0px;
-    }
-    .about-me-container{
-        flex-direction: column;
-    }
-    .card-title{
-        flex: 1 1 50px; /*need extra help with this*/
-    }
-    .footer-item{
-        flex-direction: column;
-    }
-    .footer-item p{
-        font-size: 14px;
-    }
-    header ul{
-        background-color: var(--blue-main);
-        margin: 0px;
-    }
 }

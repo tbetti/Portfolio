@@ -2,41 +2,42 @@
 <html lang="en-US">
 
 <head>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/screen-adjust.css">
     <title>Tiana Bettinson | Portfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 
 <body>
     <!-- Header with links to other sections of the page -->
-    <header>
-        <h1>Tiana Bettinson</h1>
+    <header class="navbar">
+        <h1>T<span>iana </span>B<span>ettinson</span></h1>
+        <div class="dropdown">
+            <i class="material-icons drop-btn" style="font-size:42px; color:white">menu</i>
+            <div class="drop-content">
+                <a href="#about-me">About Me</a>
+                <a href="#work">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
         <ul>
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#work">Work</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
-    <div class="hero-section" id="about-me">
-        <div class="hero-image"></div>
-        <div class="hero-text">
+    <div class="about-section" id="about-me">
+        <div class="about-text">
             <h2>Hi, I'm Tiana!</h2>
             <p>
-                I am a former elementary school math teacher turned full-stack web developer. I utilize my experience
-                leading in the classroom to manage large projects/groups by breaking down complex concepts and delegating tasks.
-                I am currently enrolled in Columbia University’s Coding Bootcamp to gain certification as a full-stack web
-                developer in Fall 2021!
-            </p>
-            <p>
-                My front-end skills include HTML, CSS, Bootstrap, JavaScript, jQuery. My backend skills
-                include Node.js. I also have experience with data analysis.
-            </p>
-            <p>
-                I recently collaborated with a group of three to create GameTime - a scheudling app using third-party APIs that allows 
-                users to schedule events at five venues based on forecasted weather.
+                A former elementary school math teacher turned full-stack web developer.
+                <span> I utilize my experience leading in the classroom to manage large projects/groups by breaking down complex concepts and delegating tasks.</span>
+                Currently enrolled in Columbia University’s Coding Bootcamp!
             </p>
             <p>Check out my work below!</p>
         </div>
+
     </div>
     <!-- Work Section -->
     <section class="master-container" id="master-container">
