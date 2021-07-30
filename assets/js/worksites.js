@@ -1,7 +1,7 @@
 var workSites = {
     weatherGenerator: {
         id: "weather-generator",
-        title: "Online Weather Generator",
+        title: "Weather Generator",
         type: "HTML/CSS/JS",
         image: "./assets/images/Weather-Generator.png",
         site: "https://tbetti.github.io/Weather-Dashboard/",
@@ -25,7 +25,7 @@ var workSites = {
     },
     gameTime: {
         id: "game-time",
-        title: "GameTime Online Scheduling App",
+        title: "GameTime Scheduling App",
         type: "HTML/CSS/JS",
         image: "./assets/images/game-time.png",
         site: "https://varunisinha.github.io/game-time/",

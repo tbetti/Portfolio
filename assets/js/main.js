@@ -1,12 +1,9 @@
 // call cards
 fillWorkContainer();
 function fillWorkContainer(){
-    // Create large card
-    createLargeCard("gameTime");
-
     // Create small cards
-    createSmallCards("weatherGenerator", "guessWord");
+    createSmallCards("gameTime", "weatherGenerator");
 
     // Create large card
-    createLargeCard("libraryOfCongress");
+    createSmallCards("guessWord", "libraryOfCongress");
 }

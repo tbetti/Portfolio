@@ -57,6 +57,13 @@
         padding: 1px;
         margin: 0px;
     }
+    .row{
+        flex-direction: column;
+    }
+    .row a{
+        width: 100%;
+        margin-bottom: 5%;
+    }
     .card-title{
         flex: 1 1 50px; /*need extra help with this*/
     }

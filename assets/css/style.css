@@ -100,25 +100,31 @@ a:hover{
 /* Styling for the Work Card */
 .row{
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
+    margin-bottom: 2%;
+}
+.row a{
+    width: 50%;
 }
 .work-card{
     position: relative;
     width: 100%;
 }
 .work-card img{
-    width: 100%;
-}
-.row-card{
-    width: 50%;
+    width: 95%;
+    border: 8px solid var(--blue-main);
 }
 .card-title{
     background-color: var(--blue-main);
     color: var(--bkgd-color);
     padding-left: 20px;
-    padding-right: 20px;
     position: absolute;
-    bottom: 36px;
+    bottom: 5px;
+    width: 93%;
+}
+.card-title h3{
+    margin-top: 0%;
 }
 
 /* Styling for the Footer */

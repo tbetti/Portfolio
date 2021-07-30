@@ -11,12 +11,12 @@ function createCard(siteName){
         titleBox.append(workTitle);
         titleBox.append(workType);
 
-        workUrl.append(workImage);
-        workUrl.append(titleBox);
+        workCard.append(workImage);
+        workCard.append(titleBox);
 
-        workCard.append(workUrl);
+        workUrl.append(workCard);
 
-        return workCard;
+        return workUrl;
 }
 
 function createLargeCard(siteName){
@@ -31,10 +31,10 @@ function createSmallCards(siteName1, siteName2){
     workContainer.append(row);
 
     var workCard1 = createCard(siteName1);
-    workCard1.attr("class", "work-card row-card");
+    workCard1.attr("class", "work-card");
     row.append(workCard1);
 
     var workCard2 = createCard(siteName2);
-    workCard2.attr("class", "work-card row-card");
+    workCard2.attr("class", "work-card");
     row.append(workCard2);
 }
