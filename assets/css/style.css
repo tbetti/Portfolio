@@ -47,22 +47,22 @@ a:hover{
 
 /* About Me Section */
 .about-section{
-    display: flex;
     background-color: var(--bkgd-color);
-    text-align: center;
 }
 
-.about-text{
+.section-text{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     font-size: 24px;
+    text-align: center;
 }
 
-.about-text h2{
+.about-section h2{
     font-size: 72px;
     margin-bottom: 0%;
     color: var(--blue-main);
+    text-align: center;
 }
 
 .about-img-container{
@@ -84,17 +84,16 @@ a:hover{
 /* Basic styling for both about-me and work sections */
 .master-container{
     margin: 8%;
+    margin-bottom: 0%;
     border-top: 5px solid var(--magenta-accent);
 }
-.work{
-    width: 30%;
-}
-.work h2{
+.master-container h2{
     color: var(--blue-main);
     font-size: 75px;
     text-transform: lowercase;
+    text-align:center;
+    margin: 0%;
     padding: 30px;
-    margin: -2%;
 }
 
 /* Styling for the Work Card */
@@ -127,37 +126,33 @@ a:hover{
     margin-top: 0%;
 }
 
+/* Contact Section */
+.master-container p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-container a{
+    font-size:42px; 
+    color: rgb(79, 109, 122);
+    text-decoration: none;
+    margin: 2%;
+}
+
 /* Styling for the Footer */
 footer{
     text-align: center;
-    margin-top: 40px;
     background-color: var(--bkgd-color2);
 }
 footer h4{
     color: var(--blue-main);
     font-size: 24px;
     text-transform: lowercase;
+    padding: 1%;
     margin:0px;
-}
-.footer-item{
-    display: flex;
-    margin: auto;
-    width: 50%;
-}
-.footer-item b{
-    color: var(--blue-main);
-}
-.footer-item p{
-    margin-left: 50px;
-    margin-right: 25px;
-    font-size: 20px; 
-}
-
-.footer-item a{
-    color: var(--lt-blue);
-    text-decoration: none;
-}
-
-.footer-item a:hover{
-    color: var(--magenta-accent);
 }
