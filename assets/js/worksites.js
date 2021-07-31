@@ -2,10 +2,11 @@ var workSites = {
     weatherGenerator: {
         id: "weather-generator",
         title: "Weather Generator",
-        type: "HTML/CSS/JS",
+        type: "HTML/CSS/JS/API",
         image: "./assets/images/Weather-Generator.png",
         site: "https://tbetti.github.io/Weather-Dashboard/",
-        description: "Website to show current and forecasted weather"
+        gitHub: "https://github.com/tbetti/Weather-Dashboard",
+        description: "Show current and forecasted weather in your city"
     },
     guessWord: {
         id: "guess-word",
@@ -13,22 +14,25 @@ var workSites = {
         type: "HTML/CSS/JS",
         image: "./assets/images/guess_the_word.png",
         site: "https://tbetti.github.io/Guess-the-Word/",
-        description: "Game that allows users to guess a word one letter at a time"
+        gitHub: "https://github.com/tbetti/Guess-the-Word",
+        description: "Guess a word one letter at a time"
     },
     libraryOfCongress: {
         id: "loc-search-tool",
         title: "Library of Congress Search Tool",
-        type: "HTML/CSS/JS",
+        type: "HTML/CSS/JS/API",
         image: "./assets/images/loc-search-tool.png",
         site: "https://tbetti.github.io/Library-of-Congress-Search-Tool/",
-        description: "Website that allows users to search the Library of Congress database"
+        gitHub: "https://github.com/tbetti/Library-of-Congress-Search-Tool",
+        description: "Search the Library of Congress database"
     },
     gameTime: {
         id: "game-time",
         title: "GameTime Scheduling App",
-        type: "HTML/CSS/JS",
+        type: "HTML/CSS/JS/API",
         image: "./assets/images/game-time.png",
         site: "https://varunisinha.github.io/game-time/",
-        description: "Scheduling app to assist users scheduling events at various football stadiums across the country"
+        gitHub: "https://github.com/varunisinha/game-time",
+        description: "Schedule events at football stadiums across the country"
     }
 }
