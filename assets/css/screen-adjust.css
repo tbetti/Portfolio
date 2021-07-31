@@ -29,9 +29,6 @@
         color: var(--magenta-accent);
         cursor: pointer;
     }
-    .dropdown:hover .drop-content{
-        display: block;
-    }
     .navbar ul{
         display: none;
     }

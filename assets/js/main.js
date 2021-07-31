@@ -7,3 +7,6 @@ function fillWorkContainer(){
     // Create large card
     createSmallCards("guessWord", "libraryOfCongress");
 }
+
+// Display menu when menu button clicked
+$("#drop-btn").click(displayMenu);
