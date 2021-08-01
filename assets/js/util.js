@@ -12,3 +12,16 @@ function displayMenu(event){
         menu.css("display", "block");
     }
 }
+
+// Display worksite information
+function displayInfo(){
+    for(let site in workSites){
+        let id = "#" + workSites[site].id;
+        let overlay = $(id);
+        if(overlay[0].style.display === "block"){
+            overlay.css("display", "none");
+        }else{
+            overlay.css("display", "block");
+        }
+    }
+}

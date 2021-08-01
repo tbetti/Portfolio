@@ -1,22 +1,25 @@
 var workContainer = $("#work-container");
 // Create basic card
 function createCard(siteName){
-        var workCard = $("<div>").attr("class", "work-card").attr("id", workSites[siteName].id);
+        var workCard = $("<div>").attr("class", "work-card");
+        let overlay = $("<div>").attr("class", "overlay").attr("id", workSites[siteName].id);
+        var textBox = $("<div>").attr("class", "text-box").attr("id", "text-box");
         var workUrl = $("<a>").attr("href", workSites[siteName].site).attr("target", "_blank");
         var workImage = $("<img>").attr("src", workSites[siteName].image).attr("alt", workSites[siteName].description);
-        var titleBox = $("<div>").attr("class", "card-title");
         var workTitle = $("<h3>").text(workSites[siteName].title);
         var workType = $("<p>").text(workSites[siteName].type);
 
-        titleBox.append(workTitle);
-        titleBox.append(workType);
+        textBox.append(workTitle);
+        textBox.append(workType);
+        overlay.append(textBox);
 
         workCard.append(workImage);
-        workCard.append(titleBox);
+        workCard.append(overlay);
 
-        workUrl.append(workCard);
+        // workUrl.append(workCard);
 
-        return workUrl;
+        // return workUrl;
+        return workCard;
 }
 
 function createLargeCard(siteName){

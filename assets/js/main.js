@@ -10,3 +10,6 @@ function fillWorkContainer(){
 
 // Display menu when menu button clicked
 $("#drop-btn").click(displayMenu);
+
+// Display worksite info when clicked
+$(".work-card").click(displayInfo);
