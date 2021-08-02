@@ -6,7 +6,7 @@ function createCard(siteName){
 
         // Display website info in text box
         var textBox = $("<div>").attr("class", "text-box").attr("id", "text-box");
-        var workImage = $("<img>").attr("src", workSites[siteName].image).attr("alt", workSites[siteName].description);
+        var workImage = $("<img>").attr("src", workSites[siteName].image).attr("alt", workSites[siteName].description).attr("name", workSites[siteName].id);
         var workTitle = $("<h3>").text(workSites[siteName].title);
         var workType = $("<p>").text(workSites[siteName].type);
         var workDescription = $("<p>").text(workSites[siteName].description);
