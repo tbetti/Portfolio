@@ -21,7 +21,5 @@ function displayInfo(event) {
     if (id !== "#undefined") {
         let overlay = $(id);
         overlay.css("display", "block");
-    }else {
-        $(".overlay").css("display", "none");
     }
 }
