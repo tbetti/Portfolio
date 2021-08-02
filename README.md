@@ -6,6 +6,11 @@ A current portfolio showcasing my work
 <h2>Description</h2>
 This webpage showcases a portfolio of websites and applications I have worked on. It also links to my current resume and provides ways to contact me through GitHub, LinkedIn, and Email.  Options in the header menu link to various parts of my webpage.  The page adapts to various screen sizes.
 
+<figure>
+    <img src="./assets/images/portfolio-demo.gif">
+    <figcaption>Mobile View via GIPHY</figcaption>
+</figure>
+
 <h2>Technologies Used</h2>
   <ul>
     <li>HTML</li>
