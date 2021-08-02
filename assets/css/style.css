@@ -137,37 +137,39 @@ a:hover{
     border: 8px solid var(--blue-main);
 }
 .overlay{
+    background-color: var(--lt-blue);
     position: absolute;
     display: none;
     margin-left: 2%;
     width: 100%;
-    height: 100%;
+    opacity: 0.9;
     top: 0;
     left: 0;
-    right: 0;
     bottom: 0;
-    background-color: var(--lt-blue);
-    z-index: 2;
 }
 .text-box{
     text-align: center;
     font-size: 18px;
+    padding-top: 5%;
     color: white;
 }
-.card-title{
-    background-color: var(--blue-main);
-    color: var(--bkgd-color);
-    padding-left: 20px;
-    position: absolute;
-    bottom: 5px;
-    width: 93%;
+.text-box h3{
+    font-size: 24px;
 }
-.card-title h3{
-    margin-top: 0%;
+.text-box p{
+    margin-bottom: 10px;
+}
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+.card-btn{
+    background-color: var(--blue-main);
+    margin: 2%;
 }
 
 /* Contact Section */
-.master-container p{
+.section-text{
     margin-top: 0%;
     margin-bottom: 0%;
 }

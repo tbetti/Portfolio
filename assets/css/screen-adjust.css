@@ -1,5 +1,5 @@
 /* Adjust for screen size */
-@media screen and (max-width:750px){
+@media screen and (max-width:900px){
     /* Navbar */
     .navbar h1 span{
         display: none;
@@ -76,6 +76,21 @@
         margin-top: 8%;
     }
     footer h4{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .text-box h3{
+        font-size: 16px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .text-box p{
+        font-size: 12px;
+        margin: 2%;
+    }
+    .card-btn{
         font-size: 16px;
     }
 }
