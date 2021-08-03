@@ -16,10 +16,15 @@ function displayMenu(event) {
 // Display worksite information
 function displayInfo(event) {
     $(".overlay").css("display", "none");
-    
+
     let id = "#" + $(event.target)[0].name;
     if (id !== "#undefined") {
         let overlay = $(id);
         overlay.css("display", "block");
     }
+}
+
+// Stop propagation for URL links
+function stopProp(event) {
+    event.stopPropagation();
 }

@@ -17,9 +17,9 @@ function createCard(siteName){
 
         // Display buttons and links to website and gitHub repository
         var btnBox = $("<div>").attr("class", "btn-box");
-        var urlBtn = $("<button>").attr("class", "card-btn").attr("id", "url-btn");
+        var urlBtn = $("<button>").attr("class", "card-btn");
         var workUrl = $("<a>").attr("href", workSites[siteName].site).attr("target", "_blank").text("Website");
-        var gitHubBtn = $("<button>").attr("class", "card-btn").attr("id","gitHub-btn");
+        var gitHubBtn = $("<button>").attr("class", "card-btn");
         var workGitHub = $("<a>").attr("href", workSites[siteName].gitHub).attr("target","_blank").text("Repository");
 
         urlBtn.append(workUrl);
