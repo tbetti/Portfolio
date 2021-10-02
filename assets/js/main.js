@@ -2,9 +2,8 @@
 fillWorkContainer();
 function fillWorkContainer(){
     // Create small cards
+    createSmallCards("coffeeChat", "techBlog");
     createSmallCards("gameTime", "weatherGenerator");
-
-    // Create large card
     createSmallCards("guessWord", "libraryOfCongress");
 }
 

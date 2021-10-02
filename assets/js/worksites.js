@@ -1,4 +1,22 @@
 var workSites = {
+    techBlog: {
+        id: "tech-blog",
+        title: "The Tech Blog",
+        type: "Sequelize - MySql - Socket.IO - HTML/CSS - JS",
+        image: "./assets/images/tech-blog.png",
+        site: "",
+        gitHub: "https://github.com/tbetti/tech-blog",
+        description: "View, post, and comment on blogs about technology and web development"
+    },
+    coffeeChat: {
+        id: "coffee-chat",
+        title: "Birds of a Feather Chat",
+        type: "Sequelize - MySql - Socket.IO - HTML/CSS - JS",
+        image: "./assets/images/coffee-chat.png",
+        site: "https://birds-of-a-feather-chat.herokuapp.com/",
+        gitHub: "https://github.com/tbetti/coffee-chat",
+        description: "Chat instantly with other logged-in users!"
+    },
     weatherGenerator: {
         id: "weather-generator",
         title: "Weather Generator",
